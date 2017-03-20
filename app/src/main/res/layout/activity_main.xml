@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ScrollView">
+
+        </HorizontalScrollView>
+
+        <EditText
+            android:id="@+id/choose_first_n"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:hint="@string/choose_first_n"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/match_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/match" />
+
+        <Button
+            android:id="@+id/location_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/location" />
+
+        <EditText
+            android:id="@+id/test_folder"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:hint="@string/test_folder"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/record_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/record" />
+
+        <Button
+            android:id="@+id/clean_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/clean" />
+
+        <Button
+            android:id="@+id/start_calibration_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/start_calibration" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+</ScrollView>
